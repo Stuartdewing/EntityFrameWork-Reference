@@ -1,0 +1,16 @@
+﻿
+1: Class Library: Must be .NET Standard
+
+.NET Standard will work with:
+	.NET Core Projects
+	.NET Framework Projects
+	Xamarin Products
+	(Nearly every project in the Microsoft ecosystem)
+----------------------------------------------------------------------------------------
+
+.NET Core 
+	Would work just fine but .NET Standard is the default library we should use.
+----------------------------------------------------------------------------------------
+
+.NET Framework
+.NET Core is a limited and does not work with .NET Framework

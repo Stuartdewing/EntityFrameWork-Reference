@@ -1,0 +1,20 @@
+﻿
+Package Manager Console
+View > Other Windows > Package Manager Console
+----------------------------------------------------------------------------------------
+
+1, Add Migration: Add-Migration {Name} | (Example name = InitialDBCreation)
+
+ErrorList:
+Error 1:
+'Add-Migration' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Solution:
+Manage NuGet Packages > Microsoft.EntityFrameworkCore.Tools
+
+Error 2:
+Your target project 'WebApplication1' doesn't match your migrations assembly 'ClassLibrary1'.
+Solution:
+Package Manger Console - Default project = ClassLibrary1
+----------------------------------------------------------------------------------------
+
+2, Create Database: Update-Database
