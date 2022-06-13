@@ -3,7 +3,6 @@
 		ClassLibrary1	>	Tick Box	>	OK
 ----------------------------------------------------------------------------------------
 2: Program
-		Add connString variable
 		Link DataAccess to the dependency injection system
 			Configure to use SQL Server
 ----------------------------------------------------------------------------------------
@@ -18,8 +17,4 @@
 		Integrated Security=True;		= Use the credentials for the person logged into the computer for the Database.
 3d:	Change name to name of new Database. (Check to make sure it doesn't already exist)
 ----------------------------------------------------------------------------------------
-
-Source: https://stackoverflow.com/questions/68980778/config-connection-string-in-net-core-6
-.Net 6 Simplifies a lot of a tasks and introduces WebApplicationBuilder 
-which in turn gives you access to the new Configuration builder and Service Collection
 
